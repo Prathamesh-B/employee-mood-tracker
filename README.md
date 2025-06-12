@@ -26,5 +26,5 @@ A simple web application for tracking employee moods, built with Next.js.
 - `app/page.tsx` - Home page
 - `app/mood/page.tsx` - Mood submission/view page
 - `app/admin/page.tsx` - Admin mood overview page
-- `app/api/mood.ts` - API route for handling mood entries (GET & POST)
+- `app/api/mood/route.ts` - API route for handling mood entries (GET & POST)
 - `app/utils/moods.ts` - In-memory array and utility functions for moods
