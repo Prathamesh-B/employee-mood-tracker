@@ -21,7 +21,7 @@ export default function AdminPage() {
             } else {
                 setError('Failed to fetch mood entries')
             }
-        } catch (err) {
+        } catch {
             setError('Failed to fetch mood entries')
         }
     }

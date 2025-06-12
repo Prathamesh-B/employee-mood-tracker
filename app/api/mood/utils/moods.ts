@@ -5,7 +5,7 @@ export interface MoodEntry {
     timestamp: Date;
 }
 
-let moodEntries: MoodEntry[] = [
+const moodEntries: MoodEntry[] = [
     {
         id: '1',
         mood: 'happy',
